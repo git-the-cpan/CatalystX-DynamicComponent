@@ -1,0 +1,30 @@
+---
+abstract: 'Parameterised Moose role providing functionality to build Catalyst components at runtime.'
+author:
+  - 'Tomas Doran (t0m) <bobtfish@bobtfish.net>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CatalystX-DynamicComponent
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Catalyst::Runtime: 5.80004
+  List::MoreUtils: 0
+  Moose::Autobox: 0
+  MooseX::Role::Parameterized: 0.06
+  MooseX::Types: 0.10
+  namespace::autoclean: 0
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git@github.com:bobtfish/catalyst-dynamicappdemo.git
+version: 0.000000_01
